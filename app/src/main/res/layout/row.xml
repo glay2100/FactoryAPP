@@ -11,6 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/darkgrey2"
         android:padding="16dp"
         >
 
@@ -25,15 +26,14 @@
             android:id="@+id/Title_Tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_toRightOf="@+id/image_Iv"
-            android:layout_toEndOf="@id/image_Iv"
-            android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            />
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/image_Iv"
+            android:layout_toRightOf="@+id/image_Iv"
+            android:text="Title"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/description_Tv"
